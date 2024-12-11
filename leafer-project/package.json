@@ -1,0 +1,38 @@
+{
+  "name": "leafer-project",
+  "version": "0.0.0",
+  "author": "dingmeizhi <1160541074@qq.com>",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@leafer-in/animate": "^1.1.0",
+    "@leafer-in/arrow": "^1.1.0",
+    "@leafer-in/color": "^1.1.0",
+    "@leafer-in/editor": "^1.1.0",
+    "@leafer-in/flow": "^1.1.0",
+    "@leafer-in/html": "^1.1.0",
+    "@leafer-in/robot": "^1.1.0",
+    "@leafer-in/scroll": "^1.1.0",
+    "@leafer-in/state": "^1.1.0",
+    "@leafer-in/text-editor": "^1.1.0",
+    "@leafer-in/view": "^1.1.0",
+    "@vue/compiler-sfc": "^3.5.13",
+    "@vue/runtime-dom": "^3.5.13",
+    "leafer-draw": "^1.1.0",
+    "leafer-editor": "^1.1.0",
+    "leafer-ui": "^1.1.0",
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
